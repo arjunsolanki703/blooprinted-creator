@@ -1,0 +1,634 @@
+// app global css in SCSS form
+.border-secondary {
+  border: 1px solid $secondary;
+  border-radius: 5px;
+}
+// app global css in SCSS form
+.back-icon {
+  content: url('../assets/back-icon.svg');
+  margin: 0px 5px;
+}
+.delete-icon {
+  content: url('../assets/delete.svg');
+  margin: 0px 5px;
+}
+.border-secondary {
+  border: 1px solid $secondary;
+  border-radius: 5px;
+}
+.border-blue {
+  border: 2px solid $info;
+  border-radius: 30px;
+}
+.border-smalt {
+  border: 2px solid $smalt;
+}
+.border-bottom-secondary {
+  border-bottom: 1px solid $secondary;
+}
+.border-columbia {
+  border: 1px solid $columbiaBlue;
+}
+.border-bottom-columbia {
+  border-bottom: 1px solid $columbiaBlue;
+}
+.box-shadow {
+  box-shadow: 0px 0px 2px $grey;
+}
+.border-primary {
+  border: 1px solid $primary;
+}
+.bg-lightGrey {
+  background: $lightGrey;
+}
+.text-regalBlue {
+  color: $regalBlue;
+}
+.text-lightGrey {
+  color: $lightGrey;
+}
+.text-manateeGrey {
+  color: $manateeGrey;
+}
+.bg-aliceBlue {
+  background: $aliceBlue;
+}
+.wrap-anywhere {
+  overflow-wrap: anywhere;
+}
+.width-75 {
+  width: 75%;
+}
+.bg-whiteSmoke {
+  background: $whiteSmoke;
+}
+.text-whiteSmoke {
+  color: $whiteSmoke;
+}
+.text-manateeGrey {
+  color: $manateeGrey;
+}
+.text-charcoal {
+  color: $charcoal;
+}
+.text-manatee {
+  color: $manatee;
+}
+.text-regalBlue {
+  color: $regalBlue;
+}
+.text-dimGrey {
+  color: $dimGrey;
+}
+.text-nightRider {
+  color: $nightRider;
+}
+.text-green {
+  color: $green;
+}
+.text-carrotOrange {
+  color: $carrotOrange;
+}
+.text-comet {
+  color: $comet;
+}
+.text-regalBlue {
+  color: $regalBlue;
+}
+.text-shuttleGrey {
+  color: $shuttleGrey;
+}
+.text-primary {
+  color: $primary;
+}
+.text-lynch {
+  color: $lynch;
+}
+.text-ghost {
+  color: $ghost;
+}
+.text-errorColor {
+  color: $errorColor;
+}
+.bg-lavenderBlue {
+  background: $lavenderBlue;
+}
+.bg-solitude {
+  background: $solitude;
+}
+.bg-solitudeBlue {
+  background: $solitudeBlue;
+}
+.bg-froly {
+  background: $froly;
+}
+.bg-lime {
+  background: $lime;
+}
+.bg-smalt {
+  background: $smalt;
+}
+.bg-papayaWhip {
+  background: $papayaWhip;
+}
+.bg-regalBlue {
+  background: $regalBlue;
+}
+.bg-selectiveYellow {
+  background: $selectiveYellow;
+}
+.bg-deepSkyBlue {
+  background: $deepSkyBlue;
+}
+.text-smalt {
+  color: $smalt;
+}
+.text-comet {
+  color: $comet;
+}
+.text-tangaroa {
+  color: $tangaroa;
+}
+.text-underline {
+  text-decoration: underline;
+}
+.text-center {
+  text-align: center;
+}
+.q-media__controls {
+  background: transparent !important;
+}
+.no-more-results-msg {
+  width: 70%;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 0em;
+}
+.on-highlight {
+  background: #f2ecff !important;
+}
+.primary-btn-style {
+  border-radius: 10px;
+  height: 58px;
+}
+.remove-underline {
+  text-decoration: none;
+}
+
+// ************** CSS for 3rd Party items ****************************
+.country-selector__input {
+  height: 56px !important;
+}
+.input-tel__input {
+  height: 56px !important;
+}
+.country-selector__toggle {
+  margin-top: 10px !important;
+}
+.country-selector__country-flag {
+  margin-top: 7px !important;
+}
+.vue-phone-number-input .select-country-container {
+  min-width: 103px !important;
+  max-width: 103px !important;
+  border: 1px solid $secondary;
+  border-radius: 5px;
+}
+.text-disable {
+  color: $secondary;
+}
+.borderAll {
+  border: 1px solid $secondary;
+}
+.borderAccent {
+  border: 1px solid $accent;
+  border-radius: 3px;
+}
+.text-darkblue {
+  color: $secondary;
+}
+.text-grey {
+  color: $grey;
+}
+.text-regalBlue {
+  color: $regalBlue;
+}
+.bg-green {
+  background-color: $green;
+}
+.bg-regalBlue {
+  background-color: $regalBlue;
+}
+.bg-solitudeBlue {
+  background: $solitudeBlue;
+}
+.bg-regalBlue {
+  background-color: $regalBlue;
+}
+
+.remove-border-top-right-radius {
+  border-top-right-radius: 0;
+}
+
+.remove-border-top-left-radius {
+  border-top-left-radius: 0;
+}
+
+.remove-border-bottom-left-radius {
+  border-bottom-left-radius: 0;
+}
+
+.remove-border-bottom-right-radius {
+  border-bottom-right-radius: 0;
+}
+
+.remove-border-right {
+  border-right: 0;
+}
+.border-input-field {
+  border: 1px solid $ghost !important;
+  border-radius: 8px;
+}
+
+.bg-purple {
+  background: $purple;
+}
+.word-break-break-all {
+  word-break: break-word;
+}
+
+.q-btn .arrow {
+  transition: transform 0.3s;
+}
+.q-btn:hover .arrow {
+  transition: transform 0.3s ease-out;
+  transform: translateX(10px);
+}
+
+.q-dialog__backdrop {
+  background-color: #152141;
+  opacity: 0.7;
+}
+// .q-menu {
+//   min-width: 0px !important;
+// }
+.header-letterspace {
+  letter-spacing: 0.75px;
+}
+
+.subtitle-letterspace {
+  letter-spacing: 0.15px;
+}
+
+.payment-fail-toast {
+  .q-notification__message {
+    font-size: 16px !important;
+  }
+  .q-notification__caption {
+    font-size: 14px !important;
+    opacity: 0.9;
+    word-break: break-word;
+  }
+}
+.border-radius-50 {
+  border-radius: 50px;
+}
+
+// font weight start
+.f-w-700 {
+  font-weight: 700;
+}
+.f-w-600 {
+  font-weight: 600;
+}
+.f-w-500 {
+  font-weight: 500;
+}
+.f-w-400 {
+  font-weight: 400;
+}
+.text-letter-space {
+  letter-spacing: 0.75px;
+}
+
+// font size and line height start
+.f-s-20 {
+  font-size: 20px;
+}
+.text-fs-32 {
+  font-size: 32px;
+}
+.text-fs-16 {
+  font-size: 16px;
+}
+.text-lh-12 {
+  line-height: 12px;
+}
+
+.text-lh-18 {
+  line-height: 18px;
+}
+.text-lh-36 {
+  line-height: 36px;
+}
+.text-lh-28 {
+  line-height: 28px;
+}
+.text-lh-24 {
+  line-height: 24px;
+}
+.text-fs-14-lh-20 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.text-fs-14-lh-24-fw-400 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.text-fs-20-lh-28 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.text-fs-24-lh-28 {
+  font-size: 24px;
+  line-height: 28px;
+}
+.text-fs-24-lh-32 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.text-fs-48-lh-56 {
+  font-size: 48px;
+  line-height: 56px;
+}
+// font size and line height end
+
+// quasar input field start
+
+.border-radius-5 {
+  border-radius: 5px;
+}
+.border-radius-lg {
+  border-radius: 20px;
+}
+.q-field {
+  transition: border 0.5s;
+  caret-color: $primary !important;
+  &:focus,
+  &:active,
+  &:hover {
+    border: 1px solid $primary !important;
+    box-shadow: 0 0 5px $primary;
+    transition: box-shadow 0.2s;
+  }
+}
+.q-field--error,
+.q-field--error:focus,
+.q-field--error:active,
+.q-field--error:hover {
+  border: 1px solid $errorColor !important;
+  transition: border 0.5s;
+  box-shadow: 0 0 5px $errorColor;
+  transition: box-shadow 0.2s;
+  font-weight: 500;
+  line-height: 12px;
+  caret-color: $errorColor !important;
+}
+.menu-box-shadow {
+  box-shadow: 0px 10px 20px $shadow;
+}
+
+.b-dropdown {
+  .q-item {
+    padding-left: 0;
+  }
+  &:active .q-focus-helper,
+  &:focus .q-focus-helper,
+  &:hover .q-focus-helper {
+    background: transparent !important;
+  }
+  .material-icons {
+    color: $primary;
+  }
+}
+// quasar input field end
+.word-break-break-word {
+  word-break: break-word;
+}
+.text-fs-32-lh-36 {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+//font-sizes
+.f-s-32 {
+  font-size: 32px;
+}
+.f-s-20 {
+  font-size: 20px;
+}
+
+.f-s-16 {
+  font-size: 16px;
+}
+
+.f-s-14 {
+  font-size: 14px;
+}
+
+//line-heights
+.text-lh-36 {
+  line-height: 36px;
+}
+.text-lh-28 {
+  line-height: 28px;
+}
+.text-lh-24 {
+  line-height: 24px;
+}
+
+.text-letter-space {
+  letter-spacing: 0.75px;
+}
+
+// font size and line height start
+.text-fs-32 {
+  font-size: 32px;
+}
+
+.text-fs-12 {
+  font-size: 12px;
+}
+.text-fs-16 {
+  font-size: 16px;
+}
+.text-lh-12 {
+  line-height: 12px;
+}
+.text-lh-20 {
+  line-height: 20px;
+}
+.text-lh-36 {
+  line-height: 36px;
+}
+.text-lh-28 {
+  line-height: 28px;
+}
+.text-lh-24 {
+  line-height: 24px;
+}
+.text-fs-14-lh-20 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.text-fs-14-lh-24-fw-400 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.text-fs-20-lh-28 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.text-fs-24-lh-28 {
+  font-size: 24px;
+  line-height: 28px;
+}
+.text-fs-24-lh-32 {
+  font-size: 24px;
+  line-height: 32px;
+}
+// font size and line height end
+
+// quasar input field start
+
+.q-field {
+  transition: border 0.5s;
+  caret-color: $primary !important;
+  &:focus,
+  &:active,
+  &:hover {
+    border: 1px solid $primary !important;
+    box-shadow: 0 0 5px $primary;
+    transition: box-shadow 0.2s;
+  }
+}
+.q-field--error,
+.q-field--error:focus,
+.q-field--error:active,
+.q-field--error:hover {
+  border: 1px solid $errorColor !important;
+  transition: border 0.5s;
+  box-shadow: 0 0 5px $errorColor;
+  line-height: 12px !important;
+  transition: box-shadow 0.2s;
+  caret-color: $errorColor !important;
+}
+// quasar input field end
+
+//for animating elements
+.reveal {
+  opacity: 0;
+  &.active {
+    opacity: 1;
+    &.fade-bottom {
+      animation: fade-bottom 1s ease-in;
+    }
+    &.fade-left {
+      animation: fade-left 1s ease-in;
+    }
+    &.fade-right {
+      animation: fade-right 1s ease-in;
+    }
+    &.fade-in {
+      animation: fade-in 1s ease-in;
+    }
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+//for whole page container
+.q-page-container {
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+.ellipsis-4-lines {
+  -webkit-line-clamp: 4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ellipsis-5-lines {
+  -webkit-line-clamp: 5;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ellipsis-6-lines {
+  -webkit-line-clamp: 6;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ellipsis-7-lines {
+  -webkit-line-clamp: 7;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ellipsis-8-lines {
+  -webkit-line-clamp: 8;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

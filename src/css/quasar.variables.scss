@@ -1,0 +1,73 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+$primary: #1652f0;
+$secondary: #d8d8d8;
+$accent: #0064fe;
+$dark: #1d1d1d;
+$regalBlue: #152141;
+
+$positive: #21ba45;
+$negative: #c10015;
+$info: #bce0fd;
+$warning: #f2c037;
+
+$aliceBlue: #eef7ff;
+$grey: #999999;
+$charcoal: #424242;
+$whiteSmoke: #f7f7f7;
+$dodgerBlue: #2699fb;
+$manatee: #8f919b;
+$solitude: #dfe6ee;
+$lavenderBlue: #cedcff;
+$froly: #e57373;
+$dimGrey: #666666;
+$nightRider: #333333;
+$columbiaBlue: #bbdefb;
+$carrotOrange: #f29423;
+$lime: #00e000;
+$smalt: #00308f;
+$dimBackground: #f2f2f2;
+$green: #007c00;
+$papayaWhip: #fff1d5;
+$orange: #fba500;
+
+$lightGrey: #e7f0ff;
+$purple: #6c63ff;
+$errorColor: #d92d20;
+
+$solitude: #e8e9ec;
+$solitudeBlue: #e8edf2;
+$regalBlue: #152141;
+$ghost: #b9bcc6;
+$kashmirBlue: #566789;
+$manateeGrey: #8a90a0;
+$comet: #5b647a;
+$selectiveYellow: #ffb800;
+$shamrockGreen: #039855;
+$shuttleGrey: #5f6368;
+$lynch: #667085;
+$lavenderBlue1: #b9cbfb;
+$deepSkyBlue: #00a3ff;
+$tangaroa: #101828;
+$tooltip-background: $primary;
+$grey-200: #e4e7ec;
+$grey-900: #101828;
+
+// $errorColor: #c10015;
+$purple: #6c63ff;
+$shadow: rgba(0, 0, 0, 0.1);
+
+// **** Breakpoint for mobile devices with width 375px and below**** //
+$xs-mobile: 374px;

@@ -1,0 +1,23 @@
+---
+# Virtual Service
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: studio-testbed
+  labels:
+    name: studio-testbed
+    project: blooprinted
+    version: 'IMAGE_TAG'
+    gitlab-job-id: "CI_JOB_ID"
+spec:
+  hosts:
+    - studio-testbed.blooprinted.com
+  gateways:
+    - istio-system/blooprinted-gateway
+  http:
+    - match:
+        - uri:
+            prefix: "/"
+      route:
+        - destination:
+            host: studio-ui

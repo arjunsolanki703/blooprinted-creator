@@ -1,0 +1,69 @@
+---
+# Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: studio-ui
+  labels:
+    name: studio-ui
+    project: blooprinted
+    version: 'IMAGE_TAG'
+    gitlab-job-id: "CI_JOB_ID"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      name: studio-ui
+      project: blooprinted
+  template:
+    metadata:
+      labels:
+        name: studio-ui
+        project: blooprinted
+        version: 'IMAGE_TAG'
+        gitlab-job-id: "CI_JOB_ID"
+    spec:
+      securityContext: {}
+      containers:
+        - name: studio-ui
+          securityContext: {}
+          image: DOCKER_IMAGE
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+          livenessProbe:
+            tcpSocket:
+              port: http
+            periodSeconds: 150
+            initialDelaySeconds: 2
+          # resources: 
+          #   requests: 
+          #     memory: ""
+          #     cpu: ""
+          #   limits:
+          #     memory: "100Mi"
+          #     cpu: "10m" 
+
+---
+# Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: studio-ui
+  labels:
+    name: studio-ui
+    project: blooprinted
+    version: 'IMAGE_TAG'
+    gitlab-job-id: "CI_JOB_ID"
+spec:
+  type: ClusterIP
+  ports:
+    - port: 80
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    name: studio-ui
+    project: blooprinted
